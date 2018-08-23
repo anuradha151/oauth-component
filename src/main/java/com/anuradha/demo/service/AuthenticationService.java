@@ -46,13 +46,13 @@ public class AuthenticationService {
         return save;
     }
 
-    public Test addTest(Test ruwan) {
-
-        System.out.println("\n\n" + ruwan + "\n\n");
-
-        Test save = testRepo.save(ruwan);
-        System.out.println("\n\n" + save + "\n\n");
-        return null;
-
-    }
+//    public Test addTest(Test ruwan) {
+//
+//        System.out.println("\n\n" + ruwan + "\n\n");
+//
+//        Test save = testRepo.save(ruwan);
+//        System.out.println("\n\n" + save + "\n\n");
+//        return null;
+//
+//    }
 }
